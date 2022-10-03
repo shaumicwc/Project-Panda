@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Panda</title>
+    <link rel="icon" href="images/fav.ico" type="image/icon type">
+
+    <!-- ----------------------------Extarnal Bootsrap CDN------------------ -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- -------------------Extarnal Css Link-------------------- -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ----------------------Google Font Links-------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- ---------------------Favicon------------------------ -->
+    <script src="https://kit.fontawesome.com/4c2aa0badf.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body style="font-family:'Montserrat', sans-serif;">
+    <!-- navbar starts here -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <form class="d-flex" role="search">
+                    <input class="form-control ms-2 search me-2" type="search" placeholder="Search"
+                        aria-label="Search" />
+                </form>
+
+                <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- carousel section starts from here -->
+
+    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row row1 d-flex align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <h1>Mi LED TV 4A PRO 32</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, in animi? Repudiandae
+                            optio dicta voluptatibus praesentium, doloribus modi exercitationem sunt aperiam molestias
+                            quaerat illum quidem tenetur eum architecto ex consequatur..
+                        </p>
+                        <h1 class="price">$1289</h1>
+                        <button>BUY NOW<i class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row row2 d-flex align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <h1>Remax RMG19 Headphone</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, odio voluptatem? Accusantium,
+                            vitae quibusdam. Eaque, placeat praesentium quidem iusto repellat magnam labore soluta
+                            blanditiis iste dolore dolorum quasi, aliquid delectus quaerat unde reprehenderit nostrum,
+                            nam saepe.
+                        </p>
+                        <h1 class="price">$320</h1>
+                        <button>BUT NOW<i class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row row3 d-flex align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <h1>Asus High Quality X-box</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sint quasi sit aliquam, enim
+                            nesciunt perspiciatis eligendi nemo facilis quos iste consequuntur iusto sequi asperiores
+                            maiores repellendus quaerat sunt illo unde alias, delectus porro.
+                        </p>
+                        <h1 class="price">$599</h1>
+                        <button>BUT NOW<i class="bi bi-arrow-right"></i></button>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- carousel section ends here -->
+
+    <!-- categories section starts from here -->
+
+    <div class="container categories">
+        <h1 class="mb-5">Categories</h1>
+
+
+        <div class="row">
+            <p class="d-flex justify-content-end"><a href="#">Explore more <i class="bi bi-arrow-right"></i>
+                </a>
+            </p>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="cat1 d-flex justify-content-between align-items-center">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="" />
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="cat2 d-flex justify-content-between align-items-center">
+                    <h1>Bags</h1>
+                    <img src="images/categories/bag.png" alt="" />
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="cat3 d-flex justify-content-between align-items-center">
+                    <h1>Shoes</h1>
+                    <img src="images/categories/shoes.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- categories section ends here -->
+
+    <!-- shoes section starts from here -->
+
+    <div class="container shoes">
+        <h1 class="mb-5">Shoes</h1>
+
+        <p class="d-flex justify-content-end">
+            <a href="#">See more <i class="bi bi-arrow-right"></i></a>
+        </p>
+        <div class="row text-center row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$1289</h5>
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok Pump</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$799</h5>
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Reebok All Terrain</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$699</h5>
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- backpack section starts from here -->
+
+    <div class="container backpack">
+        <h1 class="mb-5">Backpack</h1>
+
+        <p class="d-flex justify-content-end"><a href="#">See more <i class="bi bi-arrow-right"></i>
+            </a>
+        </p>
+
+        <div class="row text-center row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Ison Backpack</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$1289</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Biaowang Backpack</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$799</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                        <p class="card-text">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                            amet sint.
+                        </p>
+                        <h5>$699</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button>BUY NOW <i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- backpack section ends here -->
+
+    <!-- footer section starts from here -->
+    <div class="xyg text-dark">
+
+        <div class="container footer d-flex justify-content-center align-items-center">
+            <div class="touch">
+                <h3>LET'S STAY IN TOUCH</h3>
+                <p>Get updates on sales specials and more</p>
+                <input type="text" placeholder="Enter your email" />
+                <button>Send</button>
+
+
+                <div class="dp">
+                    <p> © Developed by </p>
+                    <p style="font-family:'Montserrat', sans-serif ; font-size: 16px; font-weight: bold;">
+                        <i> SHAUMIC CHODWHURY <i>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <!-- footer section ends here -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
